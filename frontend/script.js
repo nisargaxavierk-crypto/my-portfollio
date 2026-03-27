@@ -10,7 +10,7 @@ document.getElementById('feedbackForm').addEventListener('submit', async (e) => 
     statusText.innerText = "Sending...";
 
     // PASTE YOUR RENDER LINK HERE
-    const API_URL = "<render link>/api/feedback";
+    const API_URL = "https://my-portfollio-5can.onrender.com/api/feedback";
 
     try {
         const response = await fetch(API_URL, {
